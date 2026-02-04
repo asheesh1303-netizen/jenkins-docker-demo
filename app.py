@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello from Jenkins CI/CD using Docker 🚀"
+    return "Deployed automatically via Jenkins CI/CD 🎉"
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
